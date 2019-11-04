@@ -2,6 +2,7 @@
 ## Introduction to JavaScript Objects
 
 **1. Write a function, `log` that will log each property and corresponding value of an object, separated by a colon.**
+
     ```javascript
     const attributes = {
       speed: 90,
@@ -18,6 +19,7 @@
     ```
 
 **2. Write a function called `totalProps` that will return the total number of properties for a given object (not including prototype properties).**
+
     ```javascript
     const grades = {
       A: 100,
@@ -31,6 +33,7 @@
     ```
 
 **3. Write a function called `listBooks` that takes an array of book objects and logs a sentence about the `title` and `author` for each book.**
+
     ```javascript
     const library = [ 
     {
@@ -56,6 +59,7 @@
     ```
 
 **4. Implement a function called `repeatedCharacters` that takes a String as an argument and returns an object that contains a count of the repeated characters.**
+
     ```javascript
     repeatedCharacters('Programming');    // { r: 2, g: 2, m: 2 }
     repeatedCharacters('Combination');    // { o: 2, i: 2, n: 2 }
